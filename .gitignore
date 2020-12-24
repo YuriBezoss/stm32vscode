@@ -1,0 +1,7 @@
+.vscode/*
+tools/*
+docs/*
+*.bin
+*.elf
+*.o
+*.d
