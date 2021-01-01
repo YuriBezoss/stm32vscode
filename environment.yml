@@ -1,0 +1,23 @@
+name: stm32vscode1
+channels:
+  - yuribezoss
+  - memfault
+  - m-labs
+  - conda-forge
+  - defaults
+  #- javascript
+dependencies:
+  - make=4.2.1
+  - gcc-arm-none-eabi=8.2019.q3.update
+  - python=3.6.9
+  - ccache
+  - ruby=2.7.2
+  - ceedling
+  - openocd=0.10.0
+  #- numpy=1.9.*
+  - pip
+  #- pip:
+  #    - nrfutil==6.0.0
+#variables:
+#  VAR1: valueA
+#  VAR2: valueB
