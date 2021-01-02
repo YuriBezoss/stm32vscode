@@ -1,6 +1,6 @@
 tools/*
 docs/*
-.envs/*
+./.envs/*
 *.bin
 *.elf
 *.o

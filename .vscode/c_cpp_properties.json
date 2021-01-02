@@ -15,7 +15,7 @@
             "cStandard": "c17",
             "cppStandard": "c++17",
             "intelliSenseMode": "gcc-arm",
-            "compilerPath": "${env:ARMGCC_DIR}/arm-none-eabi-gcc.exe",
+            "compilerPath": "${workspaceFolder}/.envs/Library/bin/arm-none-eabi-gcc.exe",
             "compilerArgs": [
                 "-mcpu=cortex-m4",
                 "-mthumb"
