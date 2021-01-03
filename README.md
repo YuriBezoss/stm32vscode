@@ -2,26 +2,32 @@
 Reference (https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html)
 
 Create local conda environment on local project folder:
+
     conda create -p ./.envs jupyterlab=0.35
 
 Activate local environment:
+
     conda activate ./.envs
 
 Remove local environment:
+
     conda env remove -p ./.envs --all
 
 Update local environment:
+
     conda env update -p ./.envs -f environment.yml
 
 Clean local environment:
+
     conda clean -a
 
 ## Powershell
 Get location of build tools:
     Get-Command make | Format-Table -Wrap -Autosize
 
-
-
+## Ceedling
+cd .\unittest\
+ceedling test:all
 
 
 
